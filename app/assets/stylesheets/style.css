@@ -1,0 +1,312 @@
+/*
+Theme Name: HamroClass
+Theme URI: https://themecentury.com/downloads/hamroclass-free-wordpress-theme
+Author: Theme Century
+Author URI: https://themecentury.com
+Description: HamroClass, an Education theme by themecentury, is a responsive WordPress theme for university, school, college or other educational institutions. Along with educational institutions, HamroClass is flexible and loaded with several features to also cater to the needs of design agencies, corporate websites and small businesses. Official Support Forum: https://themecentury.com/forums/, Demo: https://demo.themecentury.com/wpthemes/hamroclass
+Version: 1.0.7
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: hamroclass
+Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, left-sidebar, editor-style, right-sidebar, full-width-template, two-columns, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, portfolio, entertainment
+*/
+/*=============================================================================================
+ * --------------------------- Please do not write any code here ----------------------------- */
+/*=============================================================================================*/
+/*
+ * Note: Please go to Appreance >> Customize >> Additional Code >> Additional CSS and Write css code there.
+ * Warning: If you add any css code on this file than it's working file but when you update your theme all code will be replaced so please do not write any code here.
+ * Need Support please visit our official website https://themecentury.com
+ */
+	img.wp-smiley,
+	img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 .07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+	.site-title,.site-description{position:absolute;clip:rect(1px,1px,1px,1px)}
+	.post-cats-list .category-button.hmc-cat-uncategorized{color:#fff;background:#0f233a}
+	.post-cats-list .category-button.hmc-cat-uncategorized:after{border-left-color:#0f233a;border-bottom-color:#0f233a}
+
+	.hmc-notice-wrapper {
+    background: #2528b2 !important;
+    min-height: 35px;
+	}
+	.notice-caption {
+		background: none!important
+	}
+
+	.hmc-header-menu-block-wrap .hmc-container{
+			width:100% !important
+	}
+	#site-navigation ul li a {
+    padding: 12px 11px !important;
+    font-size: 12px !important;
+		letter-spacing:1px !important
+	}
+
+	.envato-block__preview{overflow: visible !important;}
+
+	.envato-block__preview{overflow: visible;}
+
+
+	.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper{
+		text-align: center;
+	}
+	.envato-kit-141-top-0 h1,
+	.envato-kit-141-top-0 h2,
+	.envato-kit-141-top-0 h3,
+	.envato-kit-141-top-0 h4,
+	.envato-kit-141-top-0 h5,
+	.envato-kit-141-top-0 h6,
+	.envato-kit-141-top-0 p {
+		margin-top: 0;
+	}
+
+	.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	.envato-kit-141-bottom-0 p {
+		margin-bottom: 0;
+	}
+
+	.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+		margin-bottom: .5rem;
+	}
+
+	.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
+		padding-bottom: 52px;
+	}
+
+	.envato-kit-141-display-inline {
+		display: inline-block;
+	}
+
+
+
+	/** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+	#colophon{
+		background-color: #2528b2 !important;
+
+	}
+	#footer-navigation{
+	display:none !important;
+	}
+	.site-info{
+	display:none !important;
+	}
+	.bottom-footer hmc-clearfix{
+		background-color: #2528b2 !important;
+	}
+	.bottom-footer{
+		background-color: #2528b2 !important;
+	}
+
+	.elementor-29 .elementor-element.elementor-element-89bbbb3 > .elementor-container {
+	    min-height: 0px !important ;
+	}
+
+
+	/** Start Block Kit CSS: 141-3-1d55f1e76be9fb1a8d9de88accbe962f **/
+
+	.envato-kit-138-bracket .elementor-widget-container > *:before{
+		content:"[";
+		color:#ffab00;
+		display:inline-block;
+		margin-right:4px;
+		line-height:1em;
+		position:relative;
+		top:-1px;
+	}
+
+	.envato-kit-138-bracket .elementor-widget-container > *:after{
+		content:"]";
+		color:#ffab00;
+		display:inline-block;
+		margin-left:4px;
+		line-height:1em;
+		position:relative;
+		top:-1px;
+	}
+
+	/** End Block Kit CSS: 141-3-1d55f1e76be9fb1a8d9de88accbe962f **/
+
+
+
+	/** Start Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+	.envato-kit-66-menu .e--pointer-framed .elementor-item:before{
+		border-radius:1px;
+	}
+
+	.envato-kit-66-subscription-form .elementor-form-fields-wrapper{
+		position:relative;
+	}
+
+	.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit{
+		position:static;
+	}
+
+	.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit button{
+		position: absolute;
+	    top: 50%;
+	    right: 6px;
+	    transform: translate(0, -50%);
+			-moz-transform: translate(0, -50%);
+			-webmit-transform: translate(0, -50%);
+	}
+
+	.envato-kit-66-testi-slider .elementor-testimonial__footer{
+		margin-top: -60px !important;
+		z-index: 99;
+	  position: relative;
+	}
+
+	.envato-kit-66-featured-slider .elementor-slides .slick-prev{
+		width:50px;
+		height:50px;
+		background-color:#ffffff !important;
+		transform:rotate(45deg);
+		-moz-transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+		left:-25px !important;
+		-webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+		-moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+		box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+	}
+
+	.envato-kit-66-featured-slider .elementor-slides .slick-prev:before{
+		display:block;
+		margin-top:0px;
+		margin-left:0px;
+		transform:rotate(-45deg);
+		-moz-transform:rotate(-45deg);
+		-webkit-transform:rotate(-45deg);
+	}
+
+	.envato-kit-66-featured-slider .elementor-slides .slick-next{
+		width:50px;
+		height:50px;
+		background-color:#ffffff !important;
+		transform:rotate(45deg);
+		-moz-transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+		right:-25px !important;
+		-webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+		-moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+		box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.32);
+	}
+
+	.envato-kit-66-featured-slider .elementor-slides .slick-next:before{
+		display:block;
+		margin-top:-5px;
+		margin-right:-5px;
+		transform:rotate(-45deg);
+		-moz-transform:rotate(-45deg);
+		-webkit-transform:rotate(-45deg);
+	}
+
+	.envato-kit-66-orangetext{
+		color:#f4511e;
+	}
+
+	.envato-kit-66-countdown .elementor-countdown-label{
+		display:inline-block !important;
+		border:2px solid rgba(255,255,255,0.2);
+		padding:9px 20px;
+	}
+
+	/** End Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+
+
+	/** Start Block Kit CSS: 142-3-a175df65179b9ef6a5ca9f1b2c0202b9 **/
+
+	.envato-block__preview{
+		overflow: visible;
+	}
+
+	/* Border Radius */
+	.envato-kit-139-accordion .elementor-widget-container{
+		border-radius: 10px !important;
+	}
+	.envato-kit-139-map iframe,
+	.envato-kit-139-slider .slick-slide,
+	.envato-kit-139-flipbox .elementor-flip-box div{
+			border-radius: 10px !important;
+
+	}
+
+
+	/** End Block Kit CSS: 142-3-a175df65179b9ef6a5ca9f1b2c0202b9 **/
+
+
+
+	/** Start Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+
+	.envato-block__preview{overflow: visible;}
+
+	/** End Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+	#content {
+	    margin-top: 0px !important;
+	}
+	.hmc-header-menu-wrapper {
+
+	background:#2528b2 !important
+
+	}
+	#site-navigation ul li.current-menu-ancestor>a, #site-navigation ul li.current-menu-item>a {
+	     background:#2528b2 !important 
+	}
+	   
+	#site-navigation ul.sub-menu 
+	{
+	    background:#2528b2 !important
+
+	}
+	#site-navigation ul li a:hover {
+	    background:#2528b2 !important
+		}
+	@media (max-width: 768px){
+		 #site-navigation {
+	   background: #2528b2 !important
+	  }
+	}
+	#site-navigation ul li.menu-item-has-children>a:before 
+	{
+		display:none!important
+	}
+	.header-info-wrapper .header-info-item i {
+	    
+	    background-color: #2528b2 !important
+	    
+	}
+	.hmc-notice-wrapper .hmc-container .hmc-notice-block .notice-caption:before 
+	{
+	display:none!important
+	}
+	.hmc-notice-wrapper .hmc-container .hmc-notice-block .notice-caption:after 
+	{
+	display:none!important
+	}
+
+
+	@media (max-width: 768px) {
+	.hmc-notice-wrapper .hmc-container .hmc-notice-block .notice-caption {
+	    display: block !important;
+	}	
+		
+	}
+	.textwidget p{
+		color: #ffffff !important;
+		font-size: 12px;
+	}

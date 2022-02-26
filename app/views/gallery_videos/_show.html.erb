@@ -1,0 +1,6 @@
+<%= video_tag @object.video.url, controls: true, class: "video img-fluid" %>
+<% if @object.description %>
+  <div class="container-fluid media-description">
+    <h5><%= @object.description %></h5>
+  </div>
+<% end %>

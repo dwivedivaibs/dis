@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  section_type: MyString
+  published: false
+  position: 1
+  bg_color: MyString
+  url: MyString
+  url_color: MyString
+  text_color: MyString
+  show_on_menus: false
+  show_on_page: false
+  section_height: MyString
+  section_width: MyString
+
+two:
+  name: MyString
+  section_type: MyString
+  published: false
+  position: 1
+  bg_color: MyString
+  url: MyString
+  url_color: MyString
+  text_color: MyString
+  show_on_menus: false
+  show_on_page: false
+  section_height: MyString
+  section_width: MyString

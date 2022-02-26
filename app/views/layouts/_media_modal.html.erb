@@ -1,0 +1,42 @@
+<!-- The Modal -->
+<div class="modal" id="mediaModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-muted">Loading Heading..</h4>
+        <a href="javascript:void(0);" class="close" data-dismiss="modal">&times;</a>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h4 class="text-center text-muted loading">Loading...</h4>
+        <div id="render_media_content"></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $(".show_media").click(function(){
+    var id = $(this).data().id,
+    class_name = $(this).data().className,
+    url = $(this).data().url,
+    file_type = $(this).data().file_type;
+    resetmediaModal();
+    $.ajax({
+      url: url,
+      type: "get",
+      data: {id: id, class_name: class_name, file_type: file_type},
+      success: function(data) {},
+      error: function(data) {}
+    })
+  });
+  
+  function resetmediaModal(){
+    $("#mediaModal .modal-title.text-muted").html("Loading Heading..");
+    $("#mediaModal #render_media_content").html("");
+    $("#mediaModal .loading").show();
+  }
+</script>

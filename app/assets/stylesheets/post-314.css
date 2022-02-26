@@ -1,0 +1,66 @@
+.elementor-314 .elementor-element.elementor-element-0f0f385 > .elementor-container{
+	max-width:1600px;min-height:500px;
+}
+.elementor-314 .elementor-element.elementor-element-0f0f385:not(.elementor-motion-effects-element-type-background), .elementor-314 .elementor-element.elementor-element-0f0f385 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+	background-image:url("about-1.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.elementor-314 .elementor-element.elementor-element-0f0f385{
+	transition:background 0.3s, 
+	border 0.3s, 
+	border-radius 0.3s, 
+	box-shadow 0.3s;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.elementor-314 .elementor-element.elementor-element-0f0f385 > .elementor-background-overlay{
+	transition:background 0.3s, 
+	border-radius 0.3s, 
+	opacity 0.3s;
+}
+.elementor-314 .elementor-element.elementor-element-d365130 > .elementor-container{
+	max-width:500px;
+}
+.elementor-314 .elementor-element.elementor-element-b48ae66{
+	text-align:center;
+}
+.elementor-314 .elementor-element.elementor-element-b48ae66 .elementor-heading-title{
+	color:#000000;
+	font-family:"Montserrat", Sans-serif;
+	font-weight:600;
+	line-height:1.4em;
+	letter-spacing:-0.1px;
+}
+.elementor-314 .elementor-element.elementor-element-54031c2{
+	text-align:center;
+}
+.elementor-314 .elementor-element.elementor-element-54031c2 .elementor-heading-title{
+	color:#2528b2;
+	font-family:"Montserrat", Sans-serif;
+	font-size:24px;
+	font-weight:600;
+	line-height:1.4em;
+	letter-spacing:-0.1px;
+	text-shadow:0px 0px 0px rgba(0, 0, 0, 0.97);
+}
+.elementor-314 .elementor-element.elementor-element-b568a9a{
+	color:#808080;
+	font-family:"Montserrat", Sans-serif;
+	font-size:14px;
+	font-weight:500;
+	line-height:2em;
+}
+@media(max-width:767px){
+	.elementor-314 .elementor-element.elementor-element-0f0f385 > .elementor-container{
+		min-height:200px;
+	}
+	.elementor-314 .elementor-element.elementor-element-0f0f385:not(.elementor-motion-effects-element-type-background), .elementor-314 .elementor-element.elementor-element-0f0f385 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+		background-size:cover;
+	}
+	.elementor-314 .elementor-element.elementor-element-0f0f385{
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+}

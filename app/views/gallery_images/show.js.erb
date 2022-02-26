@@ -1,0 +1,3 @@
+$("#mediaModal .modal-title.text-muted").html("<%= @object.title %>");
+$("#mediaModal #render_media_content").html("<%= j (render partial: 'show') %>")
+$("#mediaModal .loading").hide();

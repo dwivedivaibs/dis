@@ -1,0 +1,11 @@
+$("#mediaModal .modal-title.text-muted").html("<%= @object.title %>");
+$("#mediaModal #render_media_content").html("<%= j (render partial: 'show') %>")
+$("#mediaModal .loading").hide();
+
+$("#mediaModal .close").click(function(){
+  $('.video').get(0).pause();
+});
+
+$('#mediaModal').on('hidden.bs.modal', function () {
+  $('.video').get(0).pause();
+})

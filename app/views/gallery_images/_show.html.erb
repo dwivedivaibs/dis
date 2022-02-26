@@ -1,0 +1,8 @@
+<a href="<%= @object.image.url %>" target="_blank" >
+  <%= image_tag @object.image.url, class: "img-fluid" %>
+</a>
+<% if @object.description %>
+  <div class="container-fluid media-description">
+    <h5><%= @object.description %></h5>
+  </div>
+<% end %>
