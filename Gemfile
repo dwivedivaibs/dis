@@ -67,6 +67,8 @@ gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 gem 'aws-sdk-rails'
 gem 'figaro'
+gem 'uglifier', '~> 2.7'
+
 
 group :development do
   gem 'capistrano', '~> 3.11.0',        require: false
