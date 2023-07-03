@@ -1,5 +1,5 @@
 # Change these
-server '44.210.141.58', port: 22, roles: [:web, :app, :db], primary: true
+server '3.87.216.219', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,'git@github.com:dwivedivaibs/dis.git'
 set :application,     'dis'
